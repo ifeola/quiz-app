@@ -6,7 +6,64 @@
 		<link rel="stylesheet" href="./styles.css" />
 		<title>Document</title>
 	</head>
-	<body class="bg-gray-800">
-		<h1>Hello World</h1>
+	<body
+		class="w-full min-h-screen flex items-center justify-center bg-indigo-700 text-white font-sans">
+		<div
+			class="config-container w-[480px] bg-white text-center p-12 rounded-2xl shadow-gray-950 text-black">
+			<h2 class="config-title text-lg font-medium">Quiz Configuration</h2>
+
+			<div class="config-option mt-5">
+				<h4 class="option-title font-medium text-base text-gray-500 mb-2">
+					Select Category
+				</h4>
+				<div class="category-options grid grid-cols-2 gap-2">
+					<button
+						class="category-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						DSA
+					</button>
+					<button
+						class="category-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						Programming
+					</button>
+					<button
+						class="category-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						Web Development
+					</button>
+					<button
+						class="category-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						Cybersecurity
+					</button>
+				</div>
+			</div>
+			<div class="config-option">
+				<h4 class="option-title font-medium text-base text-gray-500 mt-4 mb-2">
+					No. of Questions
+				</h4>
+				<div class="question-options">
+					<button
+						class="question-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						5
+					</button>
+					<button
+						class="question-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						10
+					</button>
+					<button
+						class="question-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						15
+					</button>
+					<button
+						class="question-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						20
+					</button>
+					<button
+						class="question-option p-2 text-sm bg-white border border-gray-500 cursor-pointer rounded-sm">
+						25
+					</button>
+				</div>
+			</div>
+
+			<button class="start-quiz">Start Quiz</button>
+		</div>
 	</body>
 </html>
